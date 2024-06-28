@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Generate Blood Donation Certificate</title>
+    <link rel="stylesheet" href="certificate.css">
+</head>
+<body>
+    <div class="container">
+
+
+    <div id="certificate-container" class="hidden">
+        <div id="certificate">
+            <h1>Blood Donation Certificate</h1>
+            <p>This is to certify that</p>
+            <h2 id="cert-name"></h2>
+            <p>has donated blood on</p>
+            <h3 id="cert-date"></h3>
+            <p>Blood Group:</p>
+            <h3 id="cert-blood-group"></h3>
+        </div>
+        <button id="download-btn">Download Certificate <a href="certificate.html"></a></button>
+    </div>
+    <script src="certificate.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Update Blood Donation</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Update Blood Donation Record</h1>
+        <form id="update-form">
+            
+
+            <label for="user-name">User Name:</label>
+            <input type="text" id="user-name" name="user-name" required>
+
+            <label for="user-id">Units</label>
+            <input type="text" id="user-id" name="user-id" required>
+
+            <label for="blood-group">Blood Group:</label>
+            <select id="blood-group" name="blood-group" required>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+            </select>
+
+            <label for="donation-date">Donation Date:</label>
+            <input type="date" id="donation-date" name="donation-date" required>
+
+            <button type="submit">Update Record <a href="certificate.css"></a></button>
+        </form>
+        <p id="success-message" class="hidden">Record updated successfully!</p>
+    </div>
+    <script src="user.js"></script>
+</body>
+</html>
