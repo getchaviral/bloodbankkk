@@ -28,4 +28,4 @@
 # Clone the repository
 git clone https://github.com/getchaviral/bloodbankkk.git
 
-# Open index.html in your browser
+
